@@ -1,5 +1,7 @@
 # encoding: UTF-8
 module MorseCharacters
+  
+  # RECOMMENDATION ITU-R M.1677: International Morse code
   ITU_Morse = {
     "a" => ".-",
     "b" => "-...",
@@ -87,10 +89,12 @@ module MorseCharacters
     "ż" => "--..-"
   }
 
-  Space_between_words = {" " => "        "}
+  Space_between_words = {" " => "       "}
 
-  MORSE_TO_LETTERS = Space_between_words.merge(International_extensions).merge(ITU_Morse)
-  LETTERS_TO_MORSE = (Space_between_words.merge(ITU_Morse)).invert
+  Dot = '.'
+  Dash = '-'
+  LETTERS_TO_MORSE = Space_between_words.merge(International_extensions).merge(ITU_Morse)
+  MORSE_TO_LETTERS = (Space_between_words.merge(ITU_Morse)).invert
   
   MORSE_TO_LETTERS.default = ""
   LETTERS_TO_MORSE.default = ""
@@ -99,6 +103,6 @@ module MorseCharacters
   Understood = "...-."
   Invitation_to_transmit = "-.-"
   Wait = ".-..."
-  End of work = "...-.-"
+  End_of_work = "...-.-"
   Starting_signal = "-.-.-"
 end
