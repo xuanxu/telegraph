@@ -1,5 +1,7 @@
 # encoding: UTF-8
 
+require File.dirname(__FILE__) + '/morse_characters'
+
 # Telegraph module provides a simple text-to-morse, morse-to-text translator.
 # 
 # It uses as reference the document <t>RECOMMENDATION ITU-R M.1677</t> from the 

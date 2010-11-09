@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name = 'telegraph'
-  gem.version = "1.0"
+  gem.version = "1.0.1"
   gem.date = Time.now.strftime('%Y-%m-%d')
   
   gem.summary = "Ruby gem to read and write Morse code" 
@@ -16,6 +16,5 @@ Gem::Specification.new do |gem|
   gem.rdoc_options = ['--main', 'README.rdoc', '--charset=UTF-8']
   
   gem.files = %w(MIT-LICENSE.txt README.rdoc) + Dir.glob("{spec,lib/**/*}") & `git ls-files -z`.split("\0")
-  gem.require_paths = ["lib"]
   gem.add_development_dependency("rspec", ">=2.1.0")
 end
