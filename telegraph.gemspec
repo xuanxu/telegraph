@@ -17,5 +17,5 @@ Gem::Specification.new do |gem|
   
   gem.files = %w(MIT-LICENSE.txt README.rdoc) + Dir.glob("{spec,lib/**/*}") & `git ls-files -z`.split("\0")
   gem.require_paths = ["lib"]
-  gem.add_development_dependency("rspec")
+  gem.add_development_dependency("rspec", ">=2.1.0")
 end

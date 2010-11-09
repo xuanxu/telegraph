@@ -78,6 +78,7 @@ module MorseCharacters
     "ĵ" => ".---.",
     "ź" => "--..-.",
     "ñ" => "--.--",
+    "Ñ" => "--.--",
     "ń" => "--.--",
     "ö" => "---.",
     "ø" => "---.",
@@ -91,8 +92,8 @@ module MorseCharacters
 
   Space_between_words = {" " => "       "}
 
-  Dot = '.'
-  Dash = '-'
+  DOT = '.'
+  DASH = '-'
   LETTERS_TO_MORSE = Space_between_words.merge(International_extensions).merge(ITU_Morse)
   MORSE_TO_LETTERS = (Space_between_words.merge(ITU_Morse)).invert
   
@@ -105,4 +106,5 @@ module MorseCharacters
   Wait = ".-..."
   End_of_work = "...-.-"
   Starting_signal = "-.-.-"
+  
 end
