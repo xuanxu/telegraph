@@ -5,8 +5,8 @@ Gem::Specification.new do |gem|
   gem.version = "1.0"
   gem.date = Time.now.strftime('%Y-%m-%d')
   
-  gem.summary = "Morse code in ruby" 
-  gem.description = ""
+  gem.summary = "Ruby gem to read and write Morse code" 
+  gem.description = "Telegraph provides a simple text-to-morse, morse-to-text translator."
   
   gem.authors = ['Juanjo Bazán']
   gem.email = "jjbazan@gmail.com"
