@@ -4,7 +4,7 @@ Telegraph is a Ruby gem that provides straightforward text-to-morse and morse-to
 
 It uses as reference the document 'RECOMMENDATION ITU-R M.1677' from the International Telecommunication Union, Radiocommunication Sector (ITU-R), the United Nations agency for information and communication technology issues.
 
-[![Gem Version](https://badge.fury.io/rb/telegraph.png)](http://badge.fury.io/rb/telegraph)
+{<img src="https://badge.fury.io/rb/telegraph.png" alt="Gem Version" />}[http://badge.fury.io/rb/telegraph]
 
 == Getting started
 
