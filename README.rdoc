@@ -62,6 +62,6 @@ and then using the methods to read/write:
 == Credits
 
 Author:: Juanjo Bazán
-Copyright:: Copyright (c) 2013 Juanjo Bazán
+Copyright:: Copyright (c) 2013 - ∞ Juanjo Bazán
 License:: Released under the MIT license.
 
