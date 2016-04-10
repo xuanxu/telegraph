@@ -45,7 +45,7 @@ In the Telegraph module you will find defined also the most commonly used prosig
 
 All the generated morse code will use the character '.' as short signal (aka dot) and the character '-' as long signal (aka dash).
 
-If you need to write or read using different characters as short and long signals you can do it instantiating your own \+Telegraph::MorseTransmission+ class:
+If you need to write or read using different characters as short and long signals you can do it instantiating your own <tt>Telegraph::MorseTransmission</tt> class:
 
     # User defined dot & dash (:short and :long defaults to '.' and '-')
     morser = Telegraph::MorseTransmission.new(:short =>'x', :long => '3')
