@@ -2,7 +2,7 @@
 
 Telegraph is a Ruby gem that provides straightforward text-to-morse and morse-to-text translators
 
-It uses as reference the document 'RECOMMENDATION ITU-R M.1677' from the International Telecommunication Union, Radiocommunication Sector (ITU-R), the United Nations agency for information and communication technology issues.
+It uses as reference the document {'RECOMMENDATION ITU-R M.1677'}[https://www.itu.int/rec/R-REC-M.1677-1-200910-I] from the International Telecommunication Union, Radiocommunication Sector (ITU-R), the United Nations agency for information and communication technology issues.
 
 {<img src="https://badge.fury.io/rb/telegraph.png" alt="Gem Version" />}[http://badge.fury.io/rb/telegraph] 
 {<img src="https://secure.travis-ci.org/xuanxu/telegraph.png?branch=master" alt="Build status" />}[http://travis-ci.org/xuanxu/telegraph]
