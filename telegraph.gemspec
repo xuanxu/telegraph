@@ -16,5 +16,5 @@ Gem::Specification.new do |gem|
   gem.rdoc_options = ['--main', 'README.rdoc', '--charset=UTF-8']
 
   gem.files = %w(MIT-LICENSE.txt README.rdoc) + Dir.glob("{spec,lib/**/*}") & `git ls-files -z`.split("\0")
-  gem.add_development_dependency("rspec", ">=3.7.0")
+  gem.add_development_dependency("rspec", ">=3.8.0")
 end
