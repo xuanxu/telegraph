@@ -9,9 +9,11 @@ rvm:
   - 2.4.4
   - 2.5.1
   - jruby
+  - truffleruby
   - ruby-head
 matrix:
   allow_failures:
-    - rvm: ruby-head
     - rvm: jruby
+    - rvm: truffleruby
+    - rvm: ruby-head
   fast_finish: true
