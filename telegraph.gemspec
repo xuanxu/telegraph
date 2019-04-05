@@ -12,7 +12,6 @@ Gem::Specification.new do |gem|
   gem.email = "jjbazan@gmail.com"
   gem.homepage = 'http://github.com/xuanxu/telegraph'
 
-  gem.has_rdoc = true
   gem.rdoc_options = ['--main', 'README.rdoc', '--charset=UTF-8']
 
   gem.files = %w(MIT-LICENSE.txt README.rdoc) + Dir.glob("{spec,lib/**/*}") & `git ls-files -z`.split("\0")
