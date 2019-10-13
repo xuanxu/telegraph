@@ -4,7 +4,7 @@ sudo: false
 rvm:
   - 2.4.6
   - 2.5.5
-  - 2.6.3
+  - 2.6.5
   - jruby
   - truffleruby
   - ruby-head
