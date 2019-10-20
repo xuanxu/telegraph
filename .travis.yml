@@ -2,8 +2,8 @@ language: ruby
 sudo: false
 
 rvm:
-  - 2.4.6
-  - 2.5.5
+  - 2.4.7
+  - 2.5.6
   - 2.6.5
   - jruby
   - truffleruby
