@@ -16,7 +16,7 @@ module Telegraph
   # The encode is made following the official RECOMMENDATION ITU-R M.1677.
   # The returned string uses a single space as letter separator and a seven spaces gap as word separator.
   #
-  #   Telegraph.text_to_morse("Hello world")  #=> ".... . .-.. .-.. ---        .-- --- .-. .-.. -.."
+  #   Telegraph.text_to_morse("Hello world")  #=> ".... . .-.. .-.. ---       .-- --- .-. .-.. -.."
   #
   def self.text_to_morse(text)
     text.strip.downcase.split(" ").inject([]){|morse_words, word| 
@@ -31,7 +31,7 @@ module Telegraph
   #
   # The returned string is completly downcased.
   #
-  #   Telegraph.morse_to_text(".... . .-.. .-.. ---        .-- --- .-. .-.. -..")  #=> hello world"
+  #   Telegraph.morse_to_text(".... . .-.. .-.. ---       .-- --- .-. .-.. -..")  #=> hello world"
   #
   def self.morse_to_text(morse)
     morse.split(LETTERS_TO_MORSE[" "]).inject([]){|words, morse_word|
@@ -66,7 +66,7 @@ module Telegraph
     # The returned string uses a single space as letter separator and a seven spaces gap as word separator.
     #
     #   morser = Telegraph::MorseTransmission.new(:short =>'x', :long => '3')
-    #   morser.text_to_morse("Hello world")  #=> "xxxx x x3xx x3xx 333        x33 333 x3x x3xx 3xx"
+    #   morser.text_to_morse("Hello world")  #=> "xxxx x x3xx x3xx 333       x33 333 x3x x3xx 3xx"
     #
     def text_to_morse(text)
       morse = Telegraph.text_to_morse(text)
@@ -81,7 +81,7 @@ module Telegraph
     # The returned string is completly downcased.
     #
     #   morser = Telegraph::MorseTransmission.new(:short =>'x', :long => '3')
-    #   morser.morse_to_text("xxxx x x3xx x3xx 333        x33 333 x3x x3xx 3xx")  #=> hello world"
+    #   morser.morse_to_text("xxxx x x3xx x3xx 333       x33 333 x3x x3xx 3xx")  #=> hello world"
     #
     def morse_to_text(morse)
       morse = undo_dot_dash(morse.strip)

@@ -25,10 +25,10 @@ or add it to your Gemfile (if you're on Rails):
 The simplest way to read or write morse code is using directly the two methods defined in Telegraph:
 
     # Converts text to morse characters:
-    Telegraph.text_to_morse("Hello world")  #=> ".... . .-.. .-.. ---        .-- --- .-. .-.. -.."
+    Telegraph.text_to_morse("Hello world")  #=> ".... . .-.. .-.. ---       .-- --- .-. .-.. -.."
 
     # Reads morse characters into text:
-    Telegraph.morse_to_text(".... . .-.. .-.. ---        .-- --- .-. .-.. -..")  #=> hello world"
+    Telegraph.morse_to_text(".... . .-.. .-.. ---       .-- --- .-. .-.. -..")  #=> hello world"
 
 In the Telegraph module you will find defined also the most commonly used prosigns:
 
@@ -53,10 +53,10 @@ If you need to write or read using different characters as short and long signal
 and then using the methods to read/write:
 
     # write morse code with custom signals
-    morser.text_to_morse("Hello world")  #=> "xxxx x x3xx x3xx 333        x33 333 x3x x3xx 3xx"
+    morser.text_to_morse("Hello world")  #=> "xxxx x x3xx x3xx 333       x33 333 x3x x3xx 3xx"
 
     # read morse code with custom signals
-    morser.morse_to_text("xxxx x x3xx x3xx 333        x33 333 x3x x3xx 3xx")  #=> hello world"
+    morser.morse_to_text("xxxx x x3xx x3xx 333       x33 333 x3x x3xx 3xx")  #=> hello world"
     morser.error    #=> "xxxxxxxx"
 
 == Credits
