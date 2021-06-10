@@ -2,7 +2,7 @@
 
 Gem::Specification.new do |gem|
   gem.name = 'telegraph'
-  gem.version = "1.0.1"
+  gem.version = "1.0.2"
   gem.date = Time.now.strftime('%Y-%m-%d')
 
   gem.summary = "Ruby gem to read and write Morse code"
