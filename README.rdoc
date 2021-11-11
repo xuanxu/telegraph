@@ -10,7 +10,7 @@ It uses as reference the document {'RECOMMENDATION ITU-R M.1677'}[https://www.it
 == Getting started
 
 Install the gem:
-    $ [sudo] gem install telegraph
+    $ gem install telegraph
 
 Then depending on your project you may:
 
