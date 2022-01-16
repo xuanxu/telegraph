@@ -6,7 +6,7 @@ Gem::Specification.new do |gem|
   gem.date = Time.now.strftime('%Y-%m-%d')
 
   gem.summary = "Ruby gem to read and write Morse code"
-  gem.description = "Telegraph provides a simple text-to-morse, morse-to-text translator."
+  gem.description = "Morse code translation. Telegraph provides a simple text-to-morse, morse-to-text translator."
 
   gem.authors = ['Juanjo Bazán']
   gem.email = "jjbazan@gmail.com"
