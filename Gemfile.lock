@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    telegraph (1.0.2)
+    telegraph (1.0.3)
 
 GEM
   remote: https://rubygems.org/
